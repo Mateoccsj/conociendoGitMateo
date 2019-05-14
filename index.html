@@ -13,6 +13,17 @@
             max-width: 100%;
             vertical-align: top;
         }
+        img#responsiva{
+            display: none;
+        }
+        @media screen and (max-width: 768px){
+            img#responsiva{
+            display: block;
+        }
+        img{
+            display:none;
+        }
+        }
 
     </style>
 </head>
@@ -22,6 +33,7 @@
     <img src="acustica.jpg" alt="">
     <img src="clasica.jpg" alt="">
     <img src="footer.jpg" alt="">
+    <img id="responsiva" src="fondoresponsivo.png" alt="">
     
 </body>
 </html>
